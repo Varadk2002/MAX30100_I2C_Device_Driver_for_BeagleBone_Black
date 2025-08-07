@@ -1,5 +1,6 @@
 # MAX30100 I2C Device Driver for BeagleBone Black
 CDAC PG-DESD FEB-2025 Batch Project
+
 Project Overview
 This project implements a Linux kernel-based I2C device driver for the MAX30100 pulse oximeter and heart-rate sensor, specifically for the BeagleBone Black single-board computer. The solution includes both the device driver source code and the necessary Device Tree Overlay (DTO) to configure the hardware. This allows the MAX30100 to be used as a standard character device, accessible from user space applications. Additionally, the repository includes a bare metal code implementation for an STM32 microcontroller.
 
