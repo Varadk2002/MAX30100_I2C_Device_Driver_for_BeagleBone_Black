@@ -35,6 +35,7 @@ BeagleBone Black with a recent Linux kernel.
 Device Tree Compiler (dtc).
 
 Group Members
+
 Varad Kalekar - kalekarvarad2@gmail.com
 
 Sourabh Divate - sourabhdivate2727@gmail.com
