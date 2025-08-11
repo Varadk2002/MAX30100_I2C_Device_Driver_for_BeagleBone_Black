@@ -1,0 +1,15 @@
+!SESSION 2025-06-21 15:29:34.870 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/satyam/CDAC_project/I2C_BASED_DEVICE_DRIVER_FOR_MAX30100_oximetry_and-_heart-rate-monitor_sensor/MAX30100/Inc
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-21 15:29:41.334
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-21 15:29:41.336
+!MESSAGE Log4j2 initialized with config file /home/satyam/CDAC_project/I2C_BASED_DEVICE_DRIVER_FOR_MAX30100_oximetry_and-_heart-rate-monitor_sensor/MAX30100/Inc/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-21 15:29:44.224
+!MESSAGE Started RMI Server, listening on port 41339

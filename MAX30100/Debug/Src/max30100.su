@@ -1,0 +1,7 @@
+../Inc/system_stm32f4xx.h:128:20:DelayMs	24	static
+../Src/max30100.c:16:6:max30100_write	16	static
+../Src/max30100.c:25:9:max30100_read	24	static
+../Src/max30100.c:42:6:max30100_init	16	static
+../Src/max30100.c:87:6:max30100_read_fifo	80	static
+../Src/max30100.c:123:7:calculate_spo2	64	static
+../Src/max30100.c:178:6:max30100_read_and_calculate_spo2	16	static

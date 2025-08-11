@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <ThresholdFilter level="INFO"/>
+    <Appenders>
+        <RollingFile name="DEBUGFILE" fileName="/home/srushti/Desktop/desd/I2C_BASED_DEVICE_DRIVER_FOR_MAX30100_oximetry_and-_heart-rate-monitor_sensor/MAX30100/.metadata/.ide.log" filePattern="/home/srushti/Desktop/desd/I2C_BASED_DEVICE_DRIVER_FOR_MAX30100_oximetry_and-_heart-rate-monitor_sensor/MAX30100/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%p] %c{1}:%L - %m%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="50MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="DEBUGFILE" />
+        </Root>
+    </Loggers>
+</Configuration>
